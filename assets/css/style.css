@@ -1,7 +1,11 @@
 body {
-    background: url("https://cdn.wallpapersafari.com/46/86/YAvcID.jpg");
-    color: white;
+    background: url("https://cdn.wallpapersafari.com/46/86/YAvcID.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    color: white;
+    background-size:  cover;
 }
 
 .container {
@@ -25,4 +29,55 @@ h2 {
     grid-column-start: 2;
     grid-column-end: 3;  
     text-align: center;
+}
+.gifDisplay {
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    text-align: center; 
+   
+}
+.buttons-original {
+    grid-column-start: 1;
+    grid-column-end: 5; 
+    text-align: center; 
+}
+
+.button.team {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 3px;
+    font-size: 14px;
+    background: black;
+    color: white;
+}
+
+.button.team:hover{
+    cursor: pointer;
+}
+.ratingDisplay{
+    background: black;
+    color: white;
+    width: 25%;
+    margin: auto;
+}
+.button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 3px;
+    font-size: 14px;
+    background: black;
+    color: white; 
+}
+
+.add-gif {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 3px;
+    font-size: 14px;
+    background: black;
+    color: white; 
+}
+
+.add-gif:hover {
+    cursor: pointer;
 }
