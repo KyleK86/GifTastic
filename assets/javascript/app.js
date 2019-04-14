@@ -1,9 +1,9 @@
 // Team Array
-var team = ["Tennessee Vols", "Georgia Bulldogs", "Florida Gators", "Alabama Crimson Tide", "South Carolina Gamecocks", "Florida State Seminoles", "Ohio State Buckeyes", "Michigan State Spartans", "Arizona Sundevils", "Kentucky Wildcats", "Michigan Wolverines", "Oklahoma Sooners", "Texas Longhorns", "Mississippi Rebels", "Texas A&M Aggies", "Denver University Pioneers", "MTSU Blue Raiders", "Auburn Tigers", "Arkansas Razorbacks", "Illinois Illini"];
+var team = ["Tennessee Volunteers", "Georgia Bulldogs", "Florida Gators", "Alabama Crimson Tide", "South Carolina Gamecocks", "Florida State Seminoles", "Ohio State Buckeyes", "Michigan State Spartans", "Arizona Sundevils", "Kentucky Wildcats", "Michigan Wolverines", "Oklahoma Sooners", "Texas Longhorns", "Mississippi Rebels", "Texas A&M Aggies", "Notre Dame Fighting Irish", "MTSU Blue Raiders", "Auburn Tigers", "Arkansas Razorbacks", "Illinois Illini"];
 
 function displayGif() {
     var team = $(this).attr("data-name");
-    var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + team + "&api_key=Qzq0uTPuaFMNytxJk1SR9xqF98pZ2FtH";
+    var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + team + "&api_key=Qzq0uTPuaFMNytxJk1SR9xqF98pZ2FtH&limit=24";
 
     // Ajax call
     $.ajax({

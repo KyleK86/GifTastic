@@ -13,7 +13,7 @@ display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
     margin:auto;
-    widows: 970px;
+    
 }
 h1{
     grid-column-start: 2;
@@ -30,15 +30,33 @@ h2 {
     grid-column-end: 3;  
     text-align: center;
 }
+
+.gImage{
+    border: 5px solid black;
+    margin: auto;
+    margin: 5px;
+    height: 200px;
+    width: 202px; 
+    text-align: center
+    }
+.gImage:hover{
+cursor: pointer;
+}
 .gifDisplay {
-    grid-column-start: 2;
-    grid-column-end: 3; 
-    text-align: center; 
+    margin:auto;
+    
+    padding-top:8px;
+    background: #ebebeb9c;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
    
 }
 .buttons-original {
     grid-column-start: 1;
-    grid-column-end: 5; 
+    grid-column-end: 4; 
     text-align: center; 
 }
 
