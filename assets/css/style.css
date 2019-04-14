@@ -1,0 +1,28 @@
+body {
+    background: url("https://cdn.wallpapersafari.com/46/86/YAvcID.jpg");
+    color: white;
+    background-size: cover;
+}
+
+.container {
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    margin:auto;
+    widows: 970px;
+}
+h1{
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    text-align: center; 
+}
+h2 {
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    text-align: center;   
+}
+#gif-form {
+    grid-column-start: 2;
+    grid-column-end: 3;  
+    text-align: center;
+}
