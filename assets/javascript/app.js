@@ -3,7 +3,7 @@ var team = ["Tennessee Volunteers", "Georgia Bulldogs", "Florida Gators", "Alaba
 
 function displayGif() {
     var team = $(this).attr("data-name");
-    var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + team + "&api_key=Qzq0uTPuaFMNytxJk1SR9xqF98pZ2FtH&limit=24";
+    var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + team + "&api_key=Qzq0uTPuaFMNytxJk1SR9xqF98pZ2FtH&limit=10";
 
     // Ajax call
     $.ajax({

@@ -35,17 +35,17 @@ h2 {
     border: 5px solid black;
     margin: auto;
     margin: 5px;
-    height: 200px;
-    width: 202px; 
+    height: 250px;
+    width: 250px; 
     text-align: center
     }
 .gImage:hover{
 cursor: pointer;
 }
 .gifDisplay {
+    width: 75%;
     margin:auto;
-    
-    padding-top:8px;
+    justify-content: center;
     background: #ebebeb9c;
     grid-column-start: 1;
     grid-column-end: 5;
