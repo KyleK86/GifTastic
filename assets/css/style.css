@@ -5,46 +5,51 @@ body {
     -o-background-size: cover;
     background-size: cover;
     color: white;
-    background-size:  cover;
+    background-size: cover;
 }
 
 .container {
-display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
-    margin:auto;
-    
+    margin: auto;
+
 }
-h1{
+
+h1 {
     grid-column-start: 2;
-    grid-column-end: 3; 
-    text-align: center; 
-}
-h2 {
-    grid-column-start: 2;
-    grid-column-end: 3; 
-    text-align: center;   
-}
-#gif-form {
-    grid-column-start: 2;
-    grid-column-end: 3;  
+    grid-column-end: 3;
     text-align: center;
 }
 
-.gImage{
+h2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+#gif-form {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.gImage {
     border: 5px solid black;
     margin: auto;
     margin: 5px;
     height: 250px;
-    width: 250px; 
+    width: 250px;
     text-align: center
-    }
-.gImage:hover{
-cursor: pointer;
 }
+
+.gImage:hover {
+    cursor: pointer;
+}
+
 .gifDisplay {
     width: 75%;
-    margin:auto;
+    margin: auto;
     justify-content: center;
     background: #ebebeb9c;
     grid-column-start: 1;
@@ -52,12 +57,13 @@ cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-   
+
 }
+
 .buttons-original {
     grid-column-start: 1;
-    grid-column-end: 4; 
-    text-align: center; 
+    grid-column-end: 4;
+    text-align: center;
 }
 
 .button.team {
@@ -69,22 +75,24 @@ cursor: pointer;
     color: white;
 }
 
-.button.team:hover{
+.button.team:hover {
     cursor: pointer;
 }
-.ratingDisplay{
+
+.ratingDisplay {
     background: black;
     color: white;
     width: 25%;
     margin: auto;
 }
+
 .button {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px;
     margin: 3px;
     font-size: 14px;
     background: black;
-    color: white; 
+    color: white;
 }
 
 .add-gif {
@@ -93,9 +101,20 @@ cursor: pointer;
     margin: 3px;
     font-size: 14px;
     background: black;
-    color: white; 
+    color: white;
 }
 
 .add-gif:hover {
     cursor: pointer;
+}
+
+#music {
+    height: 50px;
+    width: 88.2px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: auto;
+    border: none;
+
+
 }
